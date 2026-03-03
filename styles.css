@@ -17,28 +17,40 @@ body {
 
 .course-card {
     background-color: white;
-    border-radius: 8px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     overflow: hidden;
     transition: transform 0.3s ease;
+    text-align: center;
 }
 
 .course-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .course-header {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 120px;
     color: white;
     padding: 20px;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    border-bottom: 1px solid #eee;
 }
 
 .course-body {
     padding: 20px;
+}
+
+.course-title {
+    font-size: 22px;
+    color: #272727;
+    margin-bottom: 5px;
 }
 
 .course-body p {
