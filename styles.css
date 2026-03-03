@@ -33,7 +33,7 @@ body {
 }
 
 .course-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #6ab370 0%, #6cc974 100%);
     height: 120px;
     color: white;
     padding: 20px;
@@ -57,4 +57,42 @@ body {
     color: #666;
     font-size: 14px;
     line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Requisito de badge*/
+.badge-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.badge {
+    border: 1px solid #e9e7e7;
+    background-color: #e9e7e7;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #646363;
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #61a176;
+    background-color: #61a176;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #5a946e;
+    color: #ffffff;
 }
